@@ -11,11 +11,12 @@
 </head>
 <body>
 <h1>Privacy Policy &ndash; Verticals Uploader</h1>
-<p>Last updated: 18 October 2026</p>
+<p>Last updated: 19 October 2026</p>
 
 <h2>Who uses this app</h2>
 <p>Verticals Uploader is used only by its owner (the onchangetech GitHub
-account) to publish videos to the owner's own YouTube channel. It is not
+account) to publish the owner's own short videos to the owner's own YouTube
+channel, Instagram account, Facebook Page and LinkedIn profile. It is not
 offered to the public.</p>
 
 <h2>What Google data it accesses</h2>
@@ -27,9 +28,20 @@ offered to the public.</p>
 <p>It does not read, collect or store any other Google account data, and it
 does not access data belonging to anyone other than the owner.</p>
 
+<h2>Meta (Instagram and Facebook) and LinkedIn data</h2>
+<p>With the owner's consent it uses Meta permissions to publish Reels to the
+owner's Instagram professional account and Facebook Page
+(<code>instagram_basic</code>, <code>instagram_content_publish</code>,
+<code>pages_show_list</code>, <code>pages_read_engagement</code>,
+<code>pages_manage_posts</code>, <code>business_management</code>), and LinkedIn
+permissions to publish posts to the owner's LinkedIn profile
+(<code>openid</code>, <code>profile</code>, <code>w_member_social</code>). It reads only
+the IDs needed to post (Page ID, Instagram account ID, LinkedIn member ID). It
+does not read followers, messages, comments or any other user's data.</p>
+
 <h2>How credentials are stored</h2>
-<p>The OAuth token is stored as an encrypted GitHub Actions secret in the
-owner's private repository and is used only to perform the uploads above.
+<p>The access tokens are stored as encrypted GitHub Actions secrets in the
+owner's private repository and are used only to perform the uploads above.
 It is never shared with, sold to, or used by any third party.</p>
 
 <h2>Viewers</h2>
@@ -38,7 +50,13 @@ Viewing is governed by YouTube's own privacy policy.</p>
 
 <h2>Revoking access</h2>
 <p>Access can be revoked at any time at
-<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> (Google),
+Facebook Settings &rarr; Business integrations (Meta), and
+<a href="https://www.linkedin.com/psettings/permitted-services">LinkedIn permitted services</a>.</p>
+
+<h2>Data deletion</h2>
+<p>The app keeps no personal data of its own. To delete what it holds, the owner
+revokes access as above and deletes the GitHub secrets.</p>
 
 <h2>Use of Google API data</h2>
 <p>Verticals Uploader's use of information received from Google APIs adheres to the
